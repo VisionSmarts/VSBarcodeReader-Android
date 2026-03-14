@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Vision Smarts</string>
+    <string name="scanner_camera_flip">camera flip</string>
+    <string name="scanner_cancel">Cancel</string>
+    <string name="scanner_done">Done</string>
+    <string name="scanner_scanning">Scanning...</string>
+    <string name="scanner_text">Place the barcode in the frame\nHold steady</string>
+    <string name="scanner_torch">torch</string>
+    <string name="camera_issue_msg">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="camera_permission_required_enable_in_android">Permission to access the camera is required by the scanner.\nSince you asked not to request permission again, you will need to enable it in Android settings.</string>
+    <string name="camera_permission_required">Permission to access the camera is required by the scanner.\nPlease allow camera access.</string>
+</resources>

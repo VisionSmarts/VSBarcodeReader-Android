@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/group"
+        android:layout_width="318dp"
+        android:layout_height="318dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonScanOne"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.visionsmarts.barcode.ToggleGroupButton
+        android:id="@+id/buttonEANUPC"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif"
+        android:tag="7"
+        android:text="EAN\nUPC"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/group"
+        app:layout_constraintTop_toTopOf="@+id/group" />
+
+    <com.visionsmarts.barcode.ToggleGroupButton
+        android:id="@+id/buttonEAN2"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif"
+        android:tag="8192"
+        android:text="EAN\n+2"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/button4"
+        app:layout_constraintTop_toTopOf="@+id/group" />
+
+    <com.visionsmarts.barcode.ToggleGroupButton
+        android:id="@+id/buttonEAN5"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif"
+        android:tag="16384"
+        android:text="EAN\n+5"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/button5"
+        app:layout_constraintTop_toTopOf="@+id/group" />
+
+    <com.visionsmarts.barcode.ToggleGroupButton
+        android:id="@+id/buttonGS1"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif"
+        android:tag="7168"
+        android:text="GS1\nDatabar"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/button6"
+        app:layout_constraintTop_toTopOf="@+id/group" />
+
+
+    <com.visionsmarts.barcode.ToggleGroupButton
+        android:id="@+id/button12"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif"
+        android:tag="0"
+        android:text="ALL"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+    <com.visionsmarts.barcode.ToggleGroupButton
+        android:id="@+id/button9"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif"
+        android:tag="256"
+        android:text="Std\n2of5"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/button10"
+        app:layout_constraintTop_toTopOf="@+id/button10" />
+
+    <com.visionsmarts.barcode.ToggleGroupButton
+        android:id="@+id/button7"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif"
+        android:tag="512"
+        android:text="Tele\nPen"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <com.visionsmarts.barcode.ToggleGroupButton
+        android:id="@+id/button8"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif"
+        android:tag="32768"
+        android:text="QR"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <com.visionsmarts.barcode.ToggleGroupButton
+        android:id="@+id/buttonDM"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif"
+        android:tag="65536"
+        android:text="Data\nMatrix"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/button8"
+        app:layout_constraintTop_toTopOf="@+id/button8" />
+
+    <com.visionsmarts.barcode.ToggleGroupButton
+        android:id="@+id/button10"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif"
+        android:tag="8"
+        android:text="ITF"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/button7"
+        app:layout_constraintTop_toTopOf="@+id/button7" />
+
+    <com.visionsmarts.barcode.ToggleGroupButton
+        android:id="@+id/button4"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif"
+        android:tag="32"
+        android:text="Code\n128"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="@+id/button" />
+
+    <com.visionsmarts.barcode.ToggleGroupButton
+        android:id="@+id/button6"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif"
+        android:tag="16"
+        android:text="Code\n39"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintTop_toTopOf="@+id/button5" />
+
+    <com.visionsmarts.barcode.ToggleGroupButton
+        android:id="@+id/button"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif"
+        android:tag="64"
+        android:text="Coda\nBar"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonEANUPC"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEANUPC" />
+
+    <com.visionsmarts.barcode.ToggleGroupButton
+        android:id="@+id/button5"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif"
+        android:tag="128"
+        android:text="Code\n93"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintTop_toTopOf="@+id/button4" />
+
+    <TextView
+        android:id="@+id/resultsView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/white"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:padding="20dp"
+        android:scrollbars="vertical"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/group"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <Button
+        android:id="@+id/buttonScanOne"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#00FFFFFF"
+        android:text="Scan One"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonBatchScan"
+        app:layout_constraintStart_toStartOf="@+id/group" />
+
+    <Button
+        android:id="@+id/buttonScanInFrame"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#00FFFFFF"
+        android:text="Scan In Frame"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonBatchScan"
+        app:layout_constraintEnd_toEndOf="@+id/group" />
+
+    <Button
+        android:id="@+id/buttonBatchScan"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#00FFFFFF"
+        android:text="Batch Scan"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/group" />
+
+
+    <Button
+        android:id="@+id/buttonRedLineScan"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#00FFFFFF"
+        android:text="Red Line Scan"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/group" />
+
+    <ImageButton
+        android:id="@+id/buttonInfo"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:drawable/ic_menu_info_details"
+        app:backgroundTint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/resultsView"
+        app:layout_constraintEnd_toEndOf="@+id/resultsView" />
+
+    <ImageButton
+        android:id="@+id/buttonShare"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:drawable/ic_menu_share"
+        app:backgroundTint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/resultsView"
+        app:layout_constraintStart_toStartOf="@+id/resultsView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

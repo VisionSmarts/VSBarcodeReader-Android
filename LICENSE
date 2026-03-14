@@ -1,0 +1,46 @@
+EVALUATION LICENSE AGREEMENT FOR VSBARCODEREADER SDK
+
+Copyright (c) 2026 Vision Smarts SRL. All rights reserved.
+
+BY DOWNLOADING, INSTALLING, OR RUNNING THIS SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE, DO NOT PROCEED.
+
+1. Definitions
+"The Software" refers to the VSBarcodeReader SDK, including but not limited to binary libraries, sample source code, headers, documentation, and any associated tools provided by Vision Smarts SRL ("Licensor").
+
+2. Acceptance of Terms
+This is a legal contract. Your use of the Software constitutes full acceptance of these terms. If you are using the Software on behalf of an entity, you represent that you have the authority to bind that entity to these terms.
+
+3. License Grant: Internal Evaluation Only
+Licensor grants you a limited, non-exclusive, revocable license to use the Software strictly for internal evaluation and testing. The goal of this license is to allow you to assess the Software's suitability for your needs prior to purchasing a commercial license.
+
+4. Absolute Prohibitions Of Operational Use
+Any use of the Software beyond "internal evaluation" is strictly prohibited. You may not use the Software for any kind of operational, live, or production use by any person or entity for any purpose whatsoever, regardless of scope, duration or user base. For the avoidance of doubt, this prohibition includes —but is not limited to— any use within commercial, government, non-profit, educational, or personal environments, as well as any pilot programs, field tests, or redistribution of the Software.
+
+5. Reverse Engineering
+You shall not, and shall not permit any third party to, reverse engineer, decompile, disassemble, decrypt, or otherwise attempt to derive the source code, underlying ideas, algorithms, or structure of the binary components of the Software, except to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation.
+
+6. Telemetry and Usage Monitoring
+The Software contains features that automatically transmit anonymous usage data to Licensor’s servers and application tiers (e.g., hardware type, IP address, application identifier, SDK version, and function call frequency). This data is used solely to improve the Software and ensure compliance with this License. By using the Software, you consent to this transmission.
+
+7. Feedback
+If you provide feedback regarding the SDK, you grant Licensor a perpetual, irrevocable, worldwide, royalty-free license to use, modify, and incorporate such feedback without restriction or obligation.
+
+8. Ownership
+The Software is licensed, not sold. Licensor retains all rights, title, and interest in and to the Software and all associated intellectual property.
+
+9. Termination
+This license automatically terminates if you violate any term of this Agreement. Upon termination, you must immediately cease all use of the SDK and delete all copies. Licensor may terminate this Agreement at any time without notice.
+
+10. Disclaimer of Warranty
+THE SDK IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+LICENSOR DOES NOT WARRANT THAT THE SDK WILL BE ERROR-FREE OR UNINTERRUPTED.
+
+11. Limitation of Liability
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, LICENSOR SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING LOSS OF PROFITS, DATA, OR BUSINESS INTERRUPTION, ARISING OUT OF OR RELATED TO THE SDK OR THIS AGREEMENT.
+
+IN NO EVENT SHALL LICENSOR'S TOTAL LIABILITY EXCEED ONE HUNDRED (100) EUROS.
+
+12. Governing Law and Venue
+This Agreement is governed by the laws of Belgium. The parties agree that the courts of Nivelles, Belgium shall have jurisdiction to settle any dispute. However, this shall not prevent the Licensor from bringing an action in any other court of competent jurisdiction for the purpose of seeking injunctive relief or enforcing its intellectual property rights against unauthorized operational use.
+
